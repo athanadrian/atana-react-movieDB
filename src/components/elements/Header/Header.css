@@ -1,0 +1,47 @@
+.rcdb-header {
+  width: 100%;
+  height: auto;
+  background: #1c1c1c;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.rcdb-header-content {
+  max-width: 1280px;
+  min-height: 120px;
+  height: auto;
+  padding: 20px 0px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.rcdb-logo {
+  width: 300px;
+  margin-top: 20px;
+  float: left;
+}
+
+.rcdb-tmdb-logo {
+  width: 122px;
+  margin-top: 25px;
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .rcdb-header-content {
+    max-width: 1280px;
+    min-height: 0px;
+  }
+
+  .rcdb-tmdb-logo {
+    display: inline-block;
+    width:80px;
+    margin-top: 0px;
+  }
+
+  .rcdb-logo {
+    width: 150px;
+    margin-top: 5px;
+  }
+}
